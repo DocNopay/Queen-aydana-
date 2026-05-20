@@ -79,26 +79,23 @@ and one emotionally chaotic med student 💀
   </div>
 
 <script>
-  const noBtn = document.getElementById("noBtn");
+const noBtn = document.getElementById("noBtn");
 
-  noBtn.addEventListener("mouseover", () => {
+noBtn.addEventListener("mouseover", () => {
     noBtn.style.top = Math.random() * window.innerHeight + "px";
     noBtn.style.left = Math.random() * window.innerWidth + "px";
-  });
+});
+
 document.getElementById("yesBtn").addEventListener("click", () => {
 
-document.querySelector(".buttons").style.display = "none";
-document.getElementById("message").style.display = "block";
+    document.querySelector(".buttons").style.display = "none";
+    document.getElementById("message").style.display = "block";
 
-setTimeout(() => {
-
-window.location.href =
-"https://t.me/kiritoasuna8";
-
-}, 2500);
+    setTimeout(() => {
+        window.location.href = "https://t.me/kiritoasuna8";
+    }, 2500);
 
 });
-  
 </script>
 
 </body>
